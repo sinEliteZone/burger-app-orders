@@ -45,7 +45,7 @@ export const fetchOrders = (token, userId) => {
     };
 };
 ```
-##### 修改 src/App.js 在非登入狀態中提供checkout跟orders的路徑
+##### 修改 src/App.js 在非登入狀態中提供checkout跟orders的路徑
 ```diff
   render () {
     let routes = (
