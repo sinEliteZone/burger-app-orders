@@ -1,4 +1,4 @@
-# Burger-App  串接API運作訂單功能
+# Burger-App  串接API運作訂單功能
 #### 在mLab的burger-app專案新增Collections orders
 ![](images/addNewCollections.png)
 ##### 在src/store/action/order.js，將purchaseBurger跟fetchOrders串連API
@@ -45,7 +45,7 @@ export const fetchOrders = (token, userId) => {
     };
 };
 ```
-##### 修改 src/App.js 在非登入狀態中提供checkout跟orders的路徑
+##### 修改 src/App.js 在非登入狀態中提供checkout跟orders的路徑
 ```diff
   render () {
     let routes = (
